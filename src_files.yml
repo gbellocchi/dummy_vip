@@ -1,0 +1,13 @@
+dummy_vip:
+  vlog_opts: [
+    -L dummy_vip_lib
+  ]
+  incdirs: [
+    rtl,
+    include/dummy_module,
+  ]
+  files: [
+    include/dummy_module/dummy_header.svh,
+    rtl/dummy_submodule.sv,
+    rtl/dummy_top.sv
+  ]
